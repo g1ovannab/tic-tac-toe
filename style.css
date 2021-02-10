@@ -1,0 +1,109 @@
+/* Basic specifications */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: rgba(255, 254, 235, 1);
+    /* font-family: "Poppins", sans-serif; */
+}
+
+/* Header */
+#header{
+    background-color: #a3d2ca;
+}
+#header > h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .55rem;
+}
+
+/* Main */
+#main h4{
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+}
+#main span{
+    color: #eb5e0b;
+}
+#main h5{
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.line{
+    background-color: #d3e0ea;
+
+    height: 150px;
+    width: 450px;
+    margin: auto;
+}
+.element {
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+}
+
+#i4, #i5, #i6{
+    border-top: solid 1px black;
+    
+}
+#i7, #i8, #i9{
+    border-top: solid 1px black;
+}
+#i1, #i4, #i7, #i2, #i5, #i8{
+    border-right: solid 1px black;
+}
+
+.player{
+    color: #eb5e0b;
+    font-size: 100px;
+    display: table-cell;
+    width: 150px;
+    height: 150px;
+}
+.X{
+    padding-left: 40px;
+}
+.O{
+    padding-left: 35px;
+}
+
+
+#button > .start{
+    background-color: rgba(248, 88, 66, 0.8);
+    display: block;
+    margin: 20px auto;
+}
+#button > .start:hover{
+    background-color: rgba(255, 101, 80, 1);
+    box-shadow: 5px 5px 5px rgb(241, 128, 113);
+}
+
+#button > .restart{
+    background-color: rgba(248, 88, 66, 0.8);
+    display: block;
+    margin: 20px auto;
+}
+#button > .restart:hover{
+    background-color: rgba(255, 101, 80, 1);
+    box-shadow: 5px 5px 5px rgb(241, 128, 113);
+}
+
+
+
+
+
+
+
+
